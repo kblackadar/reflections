@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+When I viewed the two versions of a file I had created, I was able to see which lines were different between the two versions
+and what those differences were.  I was therefore able to determine where the mistake was much easier than if I had looked
+at every line on each of the two versions one by one.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By being able to easily access the history of a file, I could revert back to a previous version if needed if I made a mistake.
+Also, I could compare the current version with a previous version so I could determine what changes I made to the code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you in Git, vs having versions automatically
+saved, like Google Docs does?
+
+The pros of manually choosing when to create a commit are that you can determine when the logical time is to commit, for example after
+fixing a particular bug or adding a new feature, and can record what those changes are.  This will allow better maintenance of code
+changes.  The cons of this approach are that if you choose to wait too long between commits, you may decide to commit after too many
+changes are made and comparing your current version to previous versions may be time consuming.
+
+By having a version automatically saved at regular intervals, you can ensure that you have a relatively current version of your
+code at all times.  However, the version that was automatically saved may contain partial code or code with errors.  Also, if versions
+are saved at too frequent an interval, you may have a lot more versions to search through when comparing versions than desired.  Also,
+if versions are saved when you do not choose to save them, to keep track of changes, you would need to record what changes were made
+since the last save.  This process could be time consuming and inefficient.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google
+Docs, treat each file separately?
+
+Version control systems like Git allow multiple files to be saved in one commit because those individuals who are working within
+Git may be coding files that are interrelated.  Imagine, for example, that the coder was working within a system that did not
+allow for multiple files to be committed at one time. If the code in three files are related to each other, and the user
+makes changes to two of the three files and has to save each file separately with a separate commit, the user could forget to
+commit one of the updated files and keeping track of changes could be confusing and reverting back to previous versions could
+cause errors to occur.
+
+However, some systems treat each file separately when making commmits because users in these systems may be working on independent
+files that do not need to have this functionality.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log will show the log of the commits that have been made on the code you are working on.  This log shows the times and comments
+you made about the changes you made for each commit.  Git diff will show you what the changes were that were made between two
+commits.   Text in green with a + symbol indicate lines that were added.  Text in red with a - symbol in front indicate lines
+that were deleted.
+
+How might using version control make you more confident to make changes that could break something?
+
+Because I know I can revert to a previous version of code if I messed something up or did something that caused an unintended
+outcome, I would feel comfortable experimenting by adding code that I would not feel comfortable adding if I did not have this
+ability to revert to a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to compare two files to see the differences in code, but I am not sure what I will be working on when I am doing
+that.  I can definitely see the value in using Git version control.  I hope the color coding (green for additions and red for
+deletions) will help to identify the differences in the files easily.
