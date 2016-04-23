@@ -23,3 +23,12 @@ Having a copy of the last known state of the remote stored locally allows the us
 compare this state with the current local state easily and even if the user is offline in
 order to determine what differences there are, if any, between the remote and local versions
 of code.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using Git or GitHub, you would need to create a different version when you had a change that you wanted to be reviewed by someone
+else.  You would need to create a way to identify what those changes were so the person reviewing the changes knew how to identify
+those changes.  Then you would need to send the code to the reviewer and wait for a response on whether those changes were accepted.
+Meanwhile, if you made any changes to the code while waiting for approval of your changes you would have to keep track of those changes
+so you could alert the reviewer of those changes as well. It would be much more difficult to do this type of collaboration and could
+easily lead to errors by having several different versions of code without one "place" where all the changes are tracked and stored.
