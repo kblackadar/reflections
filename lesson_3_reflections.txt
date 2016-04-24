@@ -32,3 +32,10 @@ those changes.  Then you would need to send the code to the reviewer and wait fo
 Meanwhile, if you made any changes to the code while waiting for approval of your changes you would have to keep track of those changes
 so you could alert the reviewer of those changes as well. It would be much more difficult to do this type of collaboration and could
 easily lead to errors by having several different versions of code without one "place" where all the changes are tracked and stored.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch rather that directly in master if you were working collaboratively and were unsure
+if your change is one that others would want to make.  However, if you make your changes in a separate branch and someone else is
+working on the master branch and makes changes that conflict with your changes, you will have to update your branch to reflect those
+changes.
